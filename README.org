@@ -1,0 +1,8 @@
+** About
+
+*Godot-Dev* is a [[https://godotengine.org/][Godot]] development release cask for the macOS [[https://brew.sh][Homebrew]] package manager.
+
+#+begin_src bash
+  $ brew tap cotterell/godot-dev
+  $ brew install godot-dev # install the latest development release
+#+end_src
