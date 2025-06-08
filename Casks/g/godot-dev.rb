@@ -2,7 +2,7 @@ cask "godot-dev" do
   version "4.5-dev5"
   sha256 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
-  url "https://github.com/godotengine/godot/releases/download/#{version}/Godot_v#{version}-stable_macos.universal.zip",
+  url "https://github.com/godotengine/godot/releases/download/#{version}/Godot_v#{version}_macos.universal.zip",
       verified: "github.com/godotengine/godot/"
   name "Godot Engine Development Release"
   desc "Game development engine"
