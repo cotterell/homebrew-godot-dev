@@ -16,8 +16,8 @@ cask "godot-dev" do
 
   depends_on macos: ">= :high_sierra"
 
-  app "Godot.app", target: "Godot Dev.app"
-  binary "#{appdir}/Godot Dev.app/Contents/MacOS/Godot", target: "godot-dev"
+  app "Godot.app", target: "Godot #{version}.app"
+  binary "#{appdir}/Godot Dev.app/Contents/MacOS/Godot", target: "godot-#{version}"
 
   uninstall quit: "org.godotengine.godot"
 
